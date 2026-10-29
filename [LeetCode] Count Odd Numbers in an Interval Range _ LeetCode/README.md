@@ -1,29 +1,93 @@
 # Count Odd Numbers in an Interval Range - LeetCode
 
-### Difficulty: Easy
+### Difficulty: Medium
 
 ## Description
 
-Given two non-negative integers low and high. Return the count of odd numbers between low and high (inclusive).
+Problem List
+Debugging...
+Submit
+0
+00:00:00
+AbhayVarshith_Aripirala
+Access all features with our Premium subscription!
+My Lists
+Favorites
+Notebook
+Progress
+Points
+Try New Features
+Orders
+My Playgrounds
+Settings
+Appearance
+Sign Out
+Premium
+Description
+Description
+Editorial
+Editorial
+Solutions
+Solutions
+Submissions
+Code
+Testcase
+Testcase
+Test Result
+Status
+Language
+Runtime
+Memory
+Notes
+6
+Accepted
+Oct 28, 2026
+Python3
+44 ms
+18.9 MB
+5
+Accepted
+Oct 28, 2026
+Python3
+52 ms
+19 MB
+4
+Time Limit Exceeded
+Oct 28, 2026
+Python3
+N/A
+N/A
+3
+Time Limit Exceeded
+Oct 28, 2026
+Python3
+N/A
+N/A
+2
+Memory Limit Exceeded
+Oct 28, 2026
+Python
+N/A
+N/A
+1
+Memory Limit Exceeded
+Apr 24, 2026
+Python
+N/A
+N/A
+Python3
+Auto
+1
+2
+3
+class Solution:
+    def countOdds(self, low: int, high: int) -> int:
+        return (high + 1) // 2 - low // 2
+Saved
+Ln 3, Col 42
+You must run your code first
 
- 
-Example 1:
-
-Input: low = 3, high = 7
-Output: 3
-Explanation: The odd numbers between 3 and 7 are [3,5,7].
-
-Example 2:
-
-Input: low = 8, high = 10
-Output: 1
-Explanation: The odd numbers between 8 and 10 are [9].
-
- 
-Constraints:
-
-
-	0 <= low <= high <= 10^9
+Pushing...
 
 ---
 **Company Tags**: None
@@ -32,11 +96,5 @@ Constraints:
 ## Test Cases
 
 ```
-Input: low = 3, high = 7
-Output: 3
-Explanation: The odd numbers between 3 and 7 are [3,5,7].
-
-Input: low = 8, high = 10
-Output: 1
-Explanation: The odd numbers between 8 and 10 are [9].
+Test cases not found.
 ```
