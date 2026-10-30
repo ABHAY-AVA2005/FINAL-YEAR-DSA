@@ -1,110 +1,44 @@
 # How Many Numbers Are Smaller Than the Current Number - LeetCode
 
-### Difficulty: Medium
+### Difficulty: Hard
 
 ## Description
 
-Problem List
-Debugging...
-Submit
-0
-00:00:00
-AbhayVarshith_Aripirala
-Access all features with our Premium subscription!
-My Lists
-Favorites
-Notebook
-Progress
-Points
-Try New Features
-Orders
-My Playgrounds
-Settings
-Appearance
-Sign Out
-Premium
-Description
-Description
-Editorial
-Editorial
-Solutions
-Solutions
-Submissions
-Code
-Testcase
-Testcase
-Test Result
-Status
-Language
-Runtime
-Memory
-Notes
-7
-Accepted
-2 minutes ago
-Python3
-185 ms
-19 MB
-6
-Accepted
-Apr 24, 2026
-Python
-124 ms
-12.3 MB
-5
-Compile Error
-Dec 20, 2025
-C++
-N/A
-N/A
-4
-Accepted
-Dec 08, 2025
-C++
-15 ms
-14 MB
-3
-Accepted
-Dec 08, 2025
-C++
-14 ms
-14 MB
-2
-Accepted
-Dec 08, 2025
-C++
-15 ms
-14.1 MB
-1
-Accepted
-Dec 08, 2025
-C++
-16 ms
-14 MB
-Python3
-Auto
-1
-2
-3
-4
-5
-6
-7
-8
-class Solution:
-    def smallerNumbersThanCurrent(self, nums: list[int]) -> list[int]:
-        res = []
-        for i in range(len(nums)):
-            count = 0
-            for j in range(len(nums)):
-                if i != j and nums[j] < nums[i]:
-                    count += 1
-Restored from local
-Upgrade to Cloud Saving
-Ln 1, Col 1
-You must run your code first
+Given the array nums, for each nums[i] find out how many numbers in the array are smaller than it. That is, for each nums[i] you have to count the number of valid j's such that j != i and nums[j] < nums[i].
 
-Pushing...
+Return the answer in an array.
+
+ 
+Example 1:
+
+Input: nums = [8,1,2,2,3]
+Output: [4,0,1,1,3]
+Explanation: 
+For nums[0]=8 there exist four smaller numbers than it (1, 2, 2 and 3). 
+For nums[1]=1 does not exist any smaller number than it.
+For nums[2]=2 there exist one smaller number than it (1). 
+For nums[3]=2 there exist one smaller number than it (1). 
+For nums[4]=3 there exist three smaller numbers than it (1, 2 and 2).
+
+
+Example 2:
+
+Input: nums = [6,5,4,8]
+Output: [2,1,0,3]
+
+
+Example 3:
+
+Input: nums = [7,7,7,7]
+Output: [0,0,0,0]
+
+
+ 
+Constraints:
+
+
+	2 <= nums.length <= 500
+	0 <= nums[i] <= 100
 
 ---
 **Company Tags**: None
@@ -113,5 +47,18 @@ Pushing...
 ## Test Cases
 
 ```
-Test cases not found.
+Input: nums = [8,1,2,2,3]
+Output: [4,0,1,1,3]
+Explanation: 
+For nums[0]=8 there exist four smaller numbers than it (1, 2, 2 and 3). 
+For nums[1]=1 does not exist any smaller number than it.
+For nums[2]=2 there exist one smaller number than it (1). 
+For nums[3]=2 there exist one smaller number than it (1). 
+For nums[4]=3 there exist three smaller numbers than it (1, 2 and 2).
+
+Input: nums = [6,5,4,8]
+Output: [2,1,0,3]
+
+Input: nums = [7,7,7,7]
+Output: [0,0,0,0]
 ```
