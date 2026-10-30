@@ -1,6 +1,6 @@
 # How Many Numbers Are Smaller Than the Current Number - LeetCode
 
-### Difficulty: Hard
+### Difficulty: Easy
 
 ## Description
 
